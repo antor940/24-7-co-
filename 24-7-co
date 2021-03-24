@@ -1,6 +1,16 @@
+require('dotenv'.config()
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.once('ready', {} => {
+              consile.log(client.user.tag + "has logged in!")
 ver http = require('http');
 
 http.createSarver(function (req, res) (
-res.write('I am alive')
-res.end();
-}).listen(8080);
+     res.write('I am alive')
+     res.end();
+}).listen(8080);              
+
+client.login('TOKEN');
+
